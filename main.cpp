@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// --- Tus Clases (Mantenidas y Optimizadas) ---
 
 class ConversorTemperatura {
 public:
@@ -35,8 +34,6 @@ public:
         return (tiempo != 0) ? (distancia / tiempo) : 0;
     }
 };
-
-// --- Menú Interactivo ---
 
 int main() {
     char opcion;
